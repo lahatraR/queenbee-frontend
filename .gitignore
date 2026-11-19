@@ -1,0 +1,32 @@
+# --- OS / éditeurs ---
+.DS_Store
+Thumbs.db
+.idea/
+*.iml
+.vscode/*
+!.vscode/extensions.json
+*.swp
+
+# --- Secrets et environnements locaux ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.jks
+*.keystore
+secrets/
+
+# --- Logs ---
+*.log
+logs/
+
+# --- Node / Angular ---
+node_modules/
+dist/
+.angular/
+coverage/
+out-tsc/
+npm-debug.log*
+.npm/
